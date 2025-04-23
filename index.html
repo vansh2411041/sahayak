@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sahayak</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="logo final.png" type="image/x-icon">
+    <style>
+        .i {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10px;
+        }
+        .navbar{
+            background-color: #7b8fa1;
+        }
+        .n{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .h {
+            font-weight: bold; 
+        }
+        .collapse{
+            background-color: #6B728E;
+        }
+    </style>
+</head>
+<body>
+   <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <h5 class="text-white h4"><a href="signin.html">login</a></h5>
+      <span class="text-muted"><a href="more.html">more about us</a></span>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-#7b8fa1">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="n">
+        <img src="logo name.png" alt="Company Logo" height="75px">
+      </div>
+      <div class="i">
+        <img src="logo final.png" alt="Company Logo" height="55px">
+      </div>
+      
+    </div>
+  </nav>
+<!-- creating first div for the crousel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="worker_1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="worker_2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="worker_3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- creating div for information about the project -->
+<div class="problem">
+<h1 class="h"> Problem we address</h1>
+<p style="margin: 5px; font-weight: bold;">In less developed areas, we've noticed a pressing issue:<br> tasks assigned to workers like cleaners and electricians often go unfinished or are poorly executed due to inadequate supervision and worker negligence.<br> It's a problem that affects not just the quality of work but also the overall progress of these areas.<br><br>Our project is dedicated to tackling this issue head-on.<br> By implementing a comprehensive work management system, we aim to revolutionize the way tasks are handled.<br> Through better organization and supervision, we're committed to ensuring that every job is not only completed but also done to the highest standard, ultimately contributing to the growth and development of these regions</p>
+
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

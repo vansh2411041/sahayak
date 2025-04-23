@@ -1,0 +1,31 @@
+.problem{
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    background-color: (230, 235, 239,.9);
+    text-align: center;
+    background-image: url('transparent bg.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-color: #f8f9fa; 
+    padding: 20px; 
+   
+}
+.h{
+    text-align: center;
+    padding: 5px;
+    color: #607EAA;
+}
+.foot{
+    background-color: #176B87;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.footer-logo{
+    display: inline-block;
+}
+.footer-links{
+    display: inline-flex;
+}

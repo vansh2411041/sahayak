@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="supervisor.css">
+    <link rel="shortcut icon" href="C:\Users\hp\Documents\SIH\as.jpg" type="image/x-icon">
+    <title>supervisor</title>
+</head>
+<body>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="supervisor.html">Entry page</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="detail.html">Edit</a>
+        </li>
+      </ul>
+     
+    <div class="sup">
+        <form action="#" id="databasepage" method="post"> 
+            <div class="alert">Your message sent</div>
+            <h2>Assign Tasks</h2>
+            <label for="date">Assigning Date</label><br>
+            <input type="datetime-local" class="required" id="date" placeholder=" assign date"><br> 
+            <label for="name">name</label><br>
+            <input type="text" class="required" id="name" placeholder="Enter your name"><br> 
+            <label for="field">area of work</label><br>
+            <select id="field" name="area of work">
+                <option value="security">security</option>
+                <option value="maintenance">maintenence</option>
+                <option value="File holder" >file keeper</option>
+                <option value="chef">cooking</option>
+                <option value="helper">helper</option>
+              </select><br> 
+              <label for="task">task assigned</label><br>
+            <input type="text" class="required" id="task" placeholder=" task assigned"><br> 
+            <label for="status">status</label><br>
+            <input type="text" class="required" id="stat" placeholder=" status"><br> 
+            
+            
+            <button class="btn">Assign</button>
+
+        </form>
+    </div>
+    <div id="dispdata"></div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.1/firebase-database.js"></script>
+<script src="sup.js"></script>
+<script src="detail.js"></script>
+</html>
